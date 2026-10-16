@@ -10,8 +10,8 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**FP8 MAC unit**](https://github.com/Amine552135/fp8-mac-vhdl) | Multiply-accumulate operator in FP8 (E4M3) for AI inference, synthesized on Cyclone IV (≈ 6 % of the FPGA) and verified with testbenches | VHDL · Quartus · Questa · GHDL |
-| [**Qt6 UART API (PC ↔ FPGA)**](https://github.com/Amine552135/qt6-uart-fpga-api) | C++ class that handles the serial link between a PC and a Basys3 board, tested on the real board, with QTest tests running in CI on virtual serial ports | C++17 · Qt 6 · QSerialPort · CMake · GitHub Actions |
+| [**FP8 MAC unit**](https://github.com/amine-belkacem/fp8-mac-vhdl) | Multiply-accumulate operator in FP8 (E4M3) for AI inference, synthesized on Cyclone IV (≈ 6 % of the FPGA) and verified with testbenches | VHDL · Quartus · Questa · GHDL |
+| [**Qt6 UART API (PC ↔ FPGA)**](https://github.com/amine-belkacem/qt6-uart-fpga-api) | C++ class that handles the serial link between a PC and a Basys3 board, tested on the real board, with QTest tests running in CI on virtual serial ports | C++17 · Qt 6 · QSerialPort · CMake · GitHub Actions |
 | **FPGA accelerator for molecular dynamics** *(in progress)* | Hardware/software co-design: Python host + VHDL pipelines for force computation | VHDL · Python |
 | **Low-power LoRaWAN metering node** | ESP32 firmware for voltage/current measurement, deep-sleep state machine, LoRa-E5 module (internship, CREDEG – Sonelgaz) | C/C++ · ESP32 · LoRaWAN · MQTT |
 | **Connected health monitoring system** | ECG, SpO2 and temperature acquisition on ESP32, Flask server on Raspberry Pi 5 with real-time dashboard and alerts | ESP32 · Python · Flask · SQLite |
