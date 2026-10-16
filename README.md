@@ -25,7 +25,7 @@ I work at the boundary between **hardware and software**: digital design on FPGA
 - **AI:** neural network fundamentals, reduced-precision arithmetic (FP8) for inference, TensorFlow / PyTorch
 
 ### 🌍 Languages
-French · English · Arabic · Kabyle
+English · French · Spanish · Arabic · Kabyle
 
 ### 📫 Contact
 [LinkedIn](https://www.linkedin.com/in/mohamed-amine-belkacem-262582391/) · mohamed-amine.belkacem8@etu.univ-lorraine.fr
