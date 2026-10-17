@@ -2,7 +2,7 @@
 
 Master 2 student in **Communicating Electronic Systems Design (CSEC)** at the **University of Lorraine** (Metz, France). Before that I did a first Master's in **Embedded Systems Electronics** at USTHB, Algiers.
 
-I like working where hardware meets software: digital design on FPGA in VHDL, firmware on microcontrollers, and the PC tools that talk to the board. Lately I've been looking at hardware for **AI inference**, which is where my FP8 project comes from.
+I like working where hardware meets software: digital design on FPGA in VHDL, firmware on microcontrollers, and the PC tools that talk to the board. Lately I've been looking at **AI** and hardware for **AI inference**, which is where my FP8 project comes from.
 
 🎯 **Looking for a 4 to 6-month end-of-studies internship starting early 2027**, in FPGA / digital design, embedded systems or embedded AI, anywhere in France.
 
