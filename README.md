@@ -12,6 +12,7 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 |---|---|---|
 | [**FP8 MAC unit**](https://github.com/amine-belkacem/fp8-mac-vhdl) | Multiply-accumulate operator in FP8 (E4M3) for AI inference, synthesized on Cyclone IV (≈ 6 % of the FPGA) and verified with testbenches | VHDL · Quartus · Questa · GHDL |
 | [**Qt6 UART API (PC ↔ FPGA)**](https://github.com/amine-belkacem/qt6-uart-fpga-api) | C++ class that handles the serial link between a PC and a Basys3 board, tested on the real board, with QTest tests running in CI on virtual serial ports | C++17 · Qt 6 · QSerialPort · CMake · GitHub Actions |
+| [**Smart House solar supply**](https://github.com/amine-belkacem/smart-house-solar-energy) | Solar power chain for an Arduino house model (my part of a licence group project): PV sizing redone in Python, tested in CI and compared with multimeter measurements on the prototype | Arduino · TP4056 · XL6009 · Python · pytest · GitHub Actions |
 | **FPGA accelerator for molecular dynamics** *(in progress)* | Hardware/software co-design: Python host + VHDL pipelines for force computation | VHDL · Python |
 | **Low-power LoRaWAN metering node** | ESP32 firmware for voltage/current measurement, deep-sleep state machine, LoRa-E5 module (internship, CREDEG – Sonelgaz) | C/C++ · ESP32 · LoRaWAN · MQTT |
 | **Connected health monitoring system** | ECG, SpO2 and temperature acquisition on ESP32, Flask server on Raspberry Pi 5 with real-time dashboard and alerts | ESP32 · Python · Flask · SQLite |
@@ -22,7 +23,7 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 
 - **Digital design / FPGA:** VHDL, Verilog, RTL design, testbenches, Intel Quartus Prime, Questa, Cyclone IV, Artix-7 (Basys 3)
 - **Embedded systems:** C, C++, STM32, ESP32, Arduino, Raspberry Pi, FreeRTOS, UART, SPI, I2C, CAN, LoRaWAN
-- **Software & tools:** Python, Qt 6, CMake, Git, GitHub Actions, Linux, MATLAB/Simulink, Flask, MQTT
+- **Software & tools:** Python, pytest, Qt 6, CMake, Git, GitHub Actions, Linux, MATLAB/Simulink, Flask, MQTT
 - **AI:** neural network fundamentals, reduced-precision arithmetic (FP8) for inference, TensorFlow / PyTorch
 
 ### 🌍 Languages
