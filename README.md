@@ -15,9 +15,9 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 | [**Smart House solar supply**](https://github.com/amine-belkacem/smart-house-solar-energy) | Solar power chain for an Arduino house model (my part of a licence group project): PV sizing redone in Python, tested in CI and compared with multimeter measurements on the prototype | Arduino · TP4056 · XL6009 · Python · pytest · GitHub Actions |
 | [**Face recognition attendance on Raspberry Pi**](https://github.com/amine-belkacem/face-attendance-raspberry-pi) | Time clock that recognises people with a webcam (Haar cascade + KNN) and logs arrivals in a daily CSV, with a Flask page to enrol users. I fixed the bugs from my report version and added 16 pytest tests running in CI | Python · OpenCV · scikit-learn · Flask · Raspberry Pi · pytest · GitHub Actions |
 | [**Connected weather station (Home Assistant)**](https://github.com/amine-belkacem/home-assistant-weather-station) | Web dashboard I wrote for a 10-student IoT lab: it reads the ESP32 sensors through the Home Assistant REST API and compares them with Open-Meteo. I also helped integrate the sensors. 13 tests on the unchanged code run in CI and caught one real bug | JavaScript · HTML/CSS · REST API · Home Assistant · ESP32 · node:test · GitHub Actions |
+| [**Connected health monitor (ESP32 + Raspberry Pi 5)**](https://github.com/amine-belkacem/health-monitor-iot) | My first Master's thesis: ECG, SpO2, temperature and air quality read by an ESP32 and sent over Wi-Fi to a Flask/SQLite server on a Pi 5, with a web dashboard and a Flutter app. Going back through the code, I found and fixed a bug that truncated the ECG to whole volts. Server tests, the firmware build and Flutter tests run in CI | ESP32 · Arduino C++ · Python · Flask · SQLite · Flutter · pytest · GitHub Actions |
 | **FPGA accelerator for molecular dynamics** *(in progress)* | Hardware/software co-design: Python host + VHDL pipelines for force computation | VHDL · Python |
 | **Low-power LoRaWAN metering node** | ESP32 firmware for voltage/current measurement, deep-sleep state machine, LoRa-E5 module (internship, CREDEG – Sonelgaz) | C/C++ · ESP32 · LoRaWAN · MQTT |
-| **Connected health monitoring system** | ECG, SpO2 and temperature acquisition on ESP32, Flask server on Raspberry Pi 5 with real-time dashboard and alerts | ESP32 · Python · Flask · SQLite |
 
 *The projects without a link aren't published yet.*
 
@@ -26,7 +26,7 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 - **Digital design / FPGA:** VHDL, Verilog, RTL design, testbenches, Intel Quartus Prime, Questa, Cyclone IV, Artix-7 (Basys 3)
 - **Embedded systems:** C, C++, STM32, ESP32, Arduino, Raspberry Pi, FreeRTOS, UART, SPI, I2C, CAN, LoRaWAN
 - **Software & tools:** Python, pytest, Qt 6, CMake, Git, GitHub Actions, Linux, MATLAB/Simulink, Flask, MQTT
-- **Web / IoT:** JavaScript, HTML/CSS, REST APIs, Home Assistant
+- **Web / IoT / mobile:** JavaScript, HTML/CSS, Chart.js, REST APIs, Home Assistant, Flutter (Android)
 - **AI / computer vision:** OpenCV (Haar cascade face detection), scikit-learn (KNN), neural network fundamentals, reduced-precision arithmetic (FP8) for inference, TensorFlow / PyTorch
 
 ### 🌍 Languages
