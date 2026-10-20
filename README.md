@@ -25,11 +25,11 @@ I like working where hardware meets software: digital design on FPGA in VHDL, fi
 
 ### 🛠️ Tech stack
 
+- **AI / computer vision / NLP:** OpenCV (Haar cascade face detection), scikit-learn (KNN, logistic regression), XGBoost, imbalanced-learn, model evaluation on imbalanced data (PR-AUC, bootstrap intervals, threshold choice), BPE tokenization (tiktoken, SentencePiece), neural network fundamentals, reduced-precision arithmetic (FP8) for inference, TensorFlow / PyTorch
 - **Digital design / FPGA:** VHDL, Verilog, RTL design, testbenches, Intel Quartus Prime, Questa, Cyclone IV, Artix-7 (Basys 3)
 - **Embedded systems:** C, C++, STM32, ESP32, Arduino, Raspberry Pi, FreeRTOS, UART, SPI, I2C, CAN, LoRaWAN
 - **Software & tools:** Python, pytest, Qt 6, CMake, Git, GitHub Actions, Linux, MATLAB/Simulink, Flask, MQTT
 - **Web / IoT / mobile:** JavaScript, HTML/CSS, Chart.js, REST APIs, Home Assistant, Flutter (Android)
-- **AI / computer vision / NLP:** OpenCV (Haar cascade face detection), scikit-learn (KNN, logistic regression), XGBoost, imbalanced-learn, model evaluation on imbalanced data (PR-AUC, bootstrap intervals, threshold choice), BPE tokenization (tiktoken, SentencePiece), neural network fundamentals, reduced-precision arithmetic (FP8) for inference, TensorFlow / PyTorch
 
 ### 🌍 Languages
 English · French · Spanish · Arabic · Kabyle
